@@ -5,7 +5,7 @@
  * or fizz or buzz or fizzbuzz
  *
  *
- * Return: 0
+ * Return: returns 0
  */
 
 int main(void)
