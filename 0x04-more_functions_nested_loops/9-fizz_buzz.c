@@ -2,8 +2,7 @@
 
 /**
  * main - program that prints either number
- * or fizz or buzz or fizzBuzz
- *
+ * or FIZZ or BUZZ or FIZZBUZZ
  *
  * Return: returns 0
  */
@@ -16,21 +15,21 @@ int main(void)
 	{
 		if ((num % 3 == 0) && (num % 5 == 0))
 		{
-			printf("FizzBuzz ");
+			printf("FIZZBUZZ ");
 		}
 		else if ((num % 3) == 0)
 		{
-			printf("Fizz ");
+			printf("FIZZ ");
 		}
 		else if ((num % 5) == 0)
 		{
 			if (num != 100)
 			{
-				printf("Buzz ");
+				printf("BUZZ ");
 			}
 			else
 			{
-				printf("Buzz");
+				printf("BUZZ");
 			}
 		}
 		else
@@ -40,5 +39,5 @@ int main(void)
 	}
 	printf("\n");
 
-	return (0);
+return (0);
 }
